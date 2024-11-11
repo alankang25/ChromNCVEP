@@ -33,7 +33,7 @@ python3 /Users/kihoonkang/ncfVEP/process_vcf.py -v /Volumes/Samsung_T5/ncVEP/VCF
     -o /Volumes/Samsung_T5/ncVEP/nc_SNVs/nc_SNVs_chr4.bed
 
 echo "Finished chr4"
-
+'
 echo "Starting chr5"
 
 python3 /Users/kihoonkang/ncfVEP/process_vcf.py -v /Volumes/Samsung_T5/ncVEP/VCFs/chr5/gnomad.genomes.v4.1.sites.chr5.vcf.bgz \
@@ -89,7 +89,7 @@ python3 /Users/kihoonkang/ncfVEP/process_vcf.py -v /Volumes/Samsung_T5/ncVEP/VCF
     -o /Volumes/Samsung_T5/ncVEP/nc_SNVs/nc_SNVs_chr11.bed
 
 echo "Finished chr11"
-'
+:'
 echo "Starting chr12"
 
 python3 /Users/kihoonkang/ncfVEP/process_vcf.py -v /Volumes/Samsung_T5/ncVEP/VCFs/chr12/gnomad.genomes.v4.1.sites.chr12.vcf.bgz \
@@ -177,3 +177,4 @@ python3 /Users/kihoonkang/ncfVEP/process_vcf.py -v /Volumes/Samsung_T5/ncVEP/VCF
     -o /Volumes/Samsung_T5/ncVEP/nc_SNVs/nc_SNVs_chr22.bed
 
 echo "Finished chr22"
+'
